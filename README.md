@@ -34,5 +34,7 @@ I explain the steps which involved in this complete Pipeline.
 ## We are not hardcode any DB credentials into application code. Everything calling from Elastic Beanstalk environment variable. So I have easily depoloy the source code of staging to Production without any worry.
 
 8. After this stage, again lambda will trigger to start the removing caching from Production Cloud front Distribution.
+
+9. Mail notification will receive every important stages such as Failed, Succeeded, Approval, Review....
    
 
